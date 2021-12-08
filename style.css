@@ -1,15 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@700&display=swap');
+body{
+    justify-content: center;
+    align-items: center;
+    background-color: #a4508b;
+    background-image: linear-gradient(326deg, #a4508b 0%, #5f0a87 74%);
+}
 .calculator {
  padding: 10px;
  border-radius: 1em;
- height: 380px;
- width: 400px;
+ height: 500px;
+ width: 350px;
  margin: auto;
- background-color: #191b28;
+ background-color: #111630;
  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
 .display-box {
- font-family: 'Orbitron', sans-serif;
+ font-family: 'Maven Pro', sans-serif;
  background-color: #dcdbe1;
  border: solid black 0.5px;
  color: black;
@@ -18,7 +24,7 @@
  height: 65%;
 }
 .button {
- font-family: 'Orbitron', sans-serif;
+ font-family: 'Maven Pro', sans-serif;
  background-color: #64278f;
  color: white;
  border: solid black 0.5px;
@@ -32,4 +38,10 @@
  -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
  -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
  box-shadow: inset 0px 0px 5px #c1c1c1;
+}
+p{
+    font-family: 'Maven Pro', sans-serif;
+}
+ul{
+    font-family: 'Maven Pro', sans-serif;
 }
